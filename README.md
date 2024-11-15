@@ -2,8 +2,8 @@
 Extensions to IConfiguration, such as visualizers to help understand and debug your program configuration.
 
 ## usage
-- Add ConfigurationExtensions.cs and ConfigurationVisualizer.cs do your project
-- Change the namespace to suit your program
+- Add ConfigurationExtensions.cs and ConfigurationVisualizer.cs to your project.
+- Change the namespace to suit your program.
 - Call the `.Visualize()` or `.VisualizeSimple()` extension on your configuration:
 ```c#
 var builder = Host.CreateApplicationBuilder(args);
