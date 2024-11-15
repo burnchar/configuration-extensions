@@ -15,15 +15,26 @@ namespace YourNamespace.ExtensionMethodLogic;
 /// <summary>Builds a text visualization of an IConfiguration object</summary>
 internal static class ConfigurationVisualizer
 {
+	/// <summary>Configure the ignore list most useful to your environment. This is just a sample.</summary>
 	private readonly static HashSet<string> DefaultVendorPrefixes = new(StringComparer.OrdinalIgnoreCase) {
-		"Microsoft",
-		"System",
-		"Windows",
-		"Logging",
+		"ZES_ENABLE_SYSMAN",
+		"STTASKFOLDERPATH",
+		"SNOW_AGENT",
+		"PSModulePath",
 		"AllowedHosts",
-		"Authentication",
-		"DataProtection",
-		"Routes"
+		"PROCESSOR_",
+		"PATHEXT",
+		"NEXTHINK",
+		"IJ_RESTARTER_LOG",
+		"DriverData",
+		"ComSpec",
+		"LOGONSERVER",
+		"Chocolatey",
+		"PSLockDownPolicy",
+		"CommonProgram",
+		"ProgramFiles",
+		"SESSIONNAME",
+		"USERDOMAIN"
 	};
 
 
