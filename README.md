@@ -27,3 +27,5 @@ var ignorePaths = new List<string> { "ConnectionStrings", "contentRoot" };
 Console.WriteLine(config.Visualize(ignorePaths));
 ```
 
+## Example visualization (dark theme console)
+![image](https://github.com/user-attachments/assets/f65a5a2a-437c-42ea-ac60-447c36d7f79f)
