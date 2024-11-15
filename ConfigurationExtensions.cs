@@ -1,3 +1,11 @@
+/*
+* Configuration Visualizer
+* Creates a visual of your program configuration (IConfiguration)
+* (C) 2024 Charles Burns
+* MIT license
+* This code is meant as a small public service for use by the fine C# community.
+*/
+
 using FastCoreLib.LaunchPad.ExtensionMethodLogic;
 using Microsoft.Extensions.Configuration;
 
